@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro Liga dos Programsores</h1>
+    <form>
+        <label>Nome:</label>
+        <input type="tex" placeholder="Nome" required>
+    </form>
+    <br>
+    <form>
+        <label>Email:</label>
+        <input type="text" placeholder="Email" required>
+        <label>- Senha</label>
+        <input type="password" placeholder="Senha" required>
+    </form>
+    <br>
+    <form>
+        <label>Data de Nascimento:</label>
+        <input type="date" required>
+        <label>- Foto</label>
+        <input type="file">
+    </form>
+    <br>
+    <form>
+        <label>Nacionalidade:</label>
+        <select id="Pais" name="Pais">
+            <option value="Brasil">Brasil</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Canada">Canada</option>
+          </select>
+          <label>- Genero:</label>
+          <label>F</label>
+          <input type="checkbox">
+          <label>M</label>
+          <input type="checkbox">
+    </form>
+    <br>
+    <form>
+        <p>Linguagem que voçê domina</p>
+        <input type="checkbox">
+        <label>Java script</label>
+        <input type="checkbox">
+        <label>Python</label>
+        <input type="checkbox">
+        <label>C</label>
+        <input type="checkbox">
+        <label>Java</label>
+    </form>
+    <br>
+
+    <form action="/action_page.php">
+        <textarea name="message" style="width:300px; height:200px;">Sua mensagem.</textarea>
+        <br>
+      <input type="submit">
+  </form>
+</body>
+</html>
