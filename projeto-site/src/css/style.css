@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    
+    
+}
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color:#727272;
+}
+
+nav .active, nav a:hover{
+    background-color: #39aee1;
+    color:#FFFF;
+}
+#banner{
+    
+    background-image: url(/src/images/img1.jpeg);
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.column{
+    flex-direction: column;
+}
+.banner-headline{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.banner-headline h1{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    
+}
+.banner-headline h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555;
+    flex:1;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+   
+}
+.banner-options{
+    display: flex;
+    justify-content: space-around;
+    height: 210px;
+    
+}
+.banner1, .banner2, .banner3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.banner1{
+    background-color: #39aee1;
+}
+.banner2{
+    background-color: #0079c7;
+
+}
+.banner3{
+    background-color: #2b4c99;
+}
+.banner_title{
+    font-size: 20px;
+}
+.banner_desc{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-options a{
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+#geral{
+    display: flex;
+    justify-content: center;
+}
+.content_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content_title_text{
+    font-size: 21px;
+    font-weight: bold;
+}
+.content_bar{
+    width: 50px;
+    height: 5px;
+    background-color: #39aee1;
+    margin-top: 10px;
+}
+#rodape{
+    background-color: #1e1e1e1e;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: center;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}

@@ -1,0 +1,181 @@
+body{
+    background-image: url(/Outlander/src/img/capa.jpg);
+    margin:70px;
+    margin-top: 10px;
+}
+.conteiner{
+    margin-left: 2px;
+    background-color: rgba(8, 8, 8, 0.788);
+    display: flex;
+    width: 100%x;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+
+}
+.conteiner h1{
+    text-shadow: 5px 5px black;
+    color: white;
+    font-size: 50px;
+    
+   
+}
+/*menu{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(45, 72, 194);
+    display: flex;
+    margin: 3px;
+    width: 1090px;
+    height: 50px;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+}*/
+nav ul, nav li{
+    list-style-type: none;
+   
+}
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+nav .active, nav a:hover{
+    background-color: #6e98a7;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+.container_resumo{
+    
+    display: flex;
+    width: 1090px;
+    height: 850px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;  
+    margin-left: 50px;
+    
+}
+/*.container_1 h1 {
+    padding: 0;
+    
+    justify-content: center;
+    display: flex;
+    margin-left: 400px;
+    width: 250px;
+    height: 50px;
+    font-size: 50px;
+    text-shadow: 3px 3px rgb(8, 8, 8);
+}*/
+.container_1 img{
+    box-shadow: 40px 40px 40px 40px rgba(12, 12, 12, 0.952);
+    display: flex;
+    width: 900px;
+    height: 600px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.resumo_1{
+    
+    display: flex;
+    width: 1090px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;  
+    margin-left: 50px;
+
+}
+.resumo_1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+    font-style: oblique;
+
+}
+.resumo_1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.galeria{
+    
+    display: flex;
+    width: 1090px;
+    height: 600px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;  
+    margin-left: 50px;
+
+
+}
+.galeria h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+.galeria_foto{
+
+    display: flex;
+    box-shadow: 5px 5px 5px 5px black;
+    display: flex;
+    width: 300px;
+    height: 150px;
+}
+.fotos{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.fotos_1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.galeria_foto img {
+    height: 150px;
+    width: 300px;
+
+    
+}
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.89);
+    height: 30px;
+    align-items: center;
+    justify-content: end;
+    
+}
+.footer p{
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+    margin-right: 10px;
+}
